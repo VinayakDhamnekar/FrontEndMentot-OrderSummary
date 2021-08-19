@@ -1,0 +1,192 @@
+:root {
+    --primary-pale-blue: hsl(225, 100%, 94%);
+    --primary-bright-blue: hsl(245, 75%, 52%);
+    --neutral-pale-blue: hsl(225, 100%, 98%);
+    --neutral-des-blue: hsl(224, 23%, 55%);
+    --neutral-dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16PX;
+    font-weight: 500;
+}
+
+body {
+    
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.container{ 
+    
+    width: 90vw;
+    max-width:500px;
+    background-color: white;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+.hero-img{
+    width:100%;
+    height: 100%;
+    border-radius: 1em 1em 0 0;
+}
+
+/* =====Oredr-summary section===== */
+
+.order-summary{
+    text-align:center;
+    margin-top: 0.5em;   
+}
+
+.order-summary .heading{
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding:0.5em 0;
+    color: var(--neutral-dark-blue);
+}
+
+
+.order-summary .description{
+    font-weight: 700;
+    line-height: 1.8rem;
+    padding:0 2.5em;
+    color: var(--neutral-des-blue);
+  
+}
+
+
+/* ==============plan detail section======= */
+
+.container .plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin:1em auto;
+    padding:1em 1em;
+    border-radius: 0.5em;
+    background-color: var(--neutral-pale-blue);
+    
+}
+
+.plan .plan-change-link{
+    padding: 0.5em;
+    transition: 0.2s color, 0.5s font-size;
+}
+
+
+.plan .plan-change-link:hover{
+    text-decoration: none;
+    color:var(--neutral-des-blue);
+    font-size:1.1em
+    
+}
+
+
+.plan .plan-heading{
+    font-weight: 900;
+    padding:0.5em;
+    color: var(--neutral-dark-blue);
+    
+}
+
+
+.plan .plan-pricing{
+    font-weight: 500;
+color: var(--neutral-des-blue);
+    
+}
+
+.btn-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 80%; 
+    margin: 1em 0;
+    text-align: center;
+}
+
+
+button{
+    border:none;
+    cursor: pointer;  
+    background: none;
+    margin: 0;
+    color:black ;
+    
+}
+
+.btn-group button{
+   
+    display: block;
+    width: 100%;
+    padding: 1em 0;
+    margin: 0.5em 0;
+    border-radius: 0.5em;
+    color:white;
+    font-size: 1rem;
+    font-weight: 900;
+    color:white;
+    background-color: var(--primary-bright-blue);
+    transition: 0.3s font-size ease-in,0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out;
+
+}
+
+.btn-group button:hover{
+    font-size:1.1em;
+    background-color:hsl(223, 87%, 64%);
+    box-shadow: 0 5px 5px 0px rgb(114, 176, 247); 
+}
+
+.btn-group a{
+    padding: 1em;
+    text-decoration: none;
+    color: var(--neutral-des-blue);
+    transition: 0.3s font-size ease-in,0.3s color ease-in-out;
+    
+}
+
+.btn-group a:hover{
+    font-size:1.1em;
+    color: var(--neutral-dark-blue);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+} 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} 
+
+@media screen and (min-width:375px) {
+    body{
+        background-image:url(/images/pattern-background-desktop.svg) ;
+        background-size: cover;
+    }
+    
+} 
