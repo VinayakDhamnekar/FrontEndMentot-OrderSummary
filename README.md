@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github repo](https://github.com/VinayakDhamnekar/FrontEndMentot-OrderSummary)
+- Solution URL: [gtihub repo](https://github.com/VinayakDhamnekar/FrontEndMentot-OrderSummary)
 - Live Site URL: [Vercel](https://fm-ordersummary.vercel.app/)
 
 ## My process
@@ -46,10 +46,8 @@ Users should be able to:
 ### What I learned
 
 - Use css flexbox
-- Overide default button style:
-
-```
-button{
+-Overide default button style:
+```button{
     border:none;
     cursor: pointer;  
     background: none;
@@ -57,7 +55,6 @@ button{
     color:black ;
     
 }
-```
 use CSS variables:
 ```
 :root {
