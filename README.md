@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [gtihub repo](https://github.com/VinayakDhamnekar/FrontEndMentot-OrderSummary)
+- Solution URL: [github repo](https://github.com/VinayakDhamnekar/FrontEndMentot-OrderSummary)
 - Live Site URL: [Vercel](https://fm-ordersummary.vercel.app/)
 
 ## My process
