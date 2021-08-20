@@ -55,7 +55,9 @@ Users should be able to:
     color:black ;
     
 }
+```
 use CSS variables:
+
 ```
 :root {
     --primary-pale-blue: hsl(225, 100%, 94%);
@@ -66,6 +68,7 @@ use CSS variables:
 }
 div{
 background-color: var(--neutral-pale-blue); }
+
 ```
 
 
